@@ -12,10 +12,13 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
   &__detail {
-    display: flex;
-    align-items: center;
     margin-top: 50px;
-    justify-content: space-between;
+    form {
+      display: flex;
+      align-items: center;
+
+      justify-content: space-between;
+    }
     input {
       width: 400px;
       height: 30px;
