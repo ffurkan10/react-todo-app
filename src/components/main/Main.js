@@ -53,10 +53,6 @@ const Main = () => {
     );
   };
 
-  useEffect(() => {
-    console.log(todoList);
-  }, [todoList]);
-
   return (
     <div className="main">
       <h1>To-Do List</h1>
@@ -71,7 +67,6 @@ const Main = () => {
       </div>
       <div className="main__map">
         {todoList.map((todoItem) => {
-          console.log(todoItem.isCompleted);
           return (
             <div className="main__map__detail" key={todoItem.id}>
               <div className="main__map__detail__text">
