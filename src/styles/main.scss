@@ -16,7 +16,6 @@
     form {
       display: flex;
       align-items: center;
-
       justify-content: space-between;
     }
     input {
@@ -73,11 +72,16 @@
         }
       }
       &__btn {
+        display: flex;
+        align-items: center;
+        outline: none;
         &__icon {
-          width: 25px;
-          height: 25px;
           margin-inline: 5px;
+          font-size: 20px;
+          background-color: transparent;
+          border: none;
           cursor: pointer;
+          color: #0d253f;
         }
       }
     }
